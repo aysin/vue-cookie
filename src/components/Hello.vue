@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2><b>Enchante Your Journey!</b></h2>
+    <h1><b>{{ msg }}</b></h1>
+    <h2>Enchante Your Journey. Loose your bad habits.</h2>
     <!-- <button @click="onClick">{{ counter }}</button> -->
   </div>
 </template>
@@ -33,6 +33,5 @@ button {
   font-family: inherit;
   border: 1px solid #EEE;
   background: #FFF;
-  padding:
 }
 </style>
