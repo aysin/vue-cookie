@@ -1,22 +1,17 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Bird &lt;3 {{ bird }}</h2>
-    <button v-on:click="onClick">{{ counter }}</button>
+    <h2><b>Enchante Your Journey!</b></h2>
+    <!-- <button @click="onClick">{{ counter }}</button> -->
   </div>
 </template>
 
 <script>
-import cookie from './thibaut'
-console.log(cookie(10))
-
 export default {
   name: 'hello',
   data: () => {
     return {
-      msg: 'Welcome to Your Challenge Cookie App',
-      bird: 'Cookie',
-      counter: 0
+      msg: 'Welcome to the most challenging app, ever.'
     }
   },
   methods: {
