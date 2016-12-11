@@ -2,19 +2,23 @@
   <div>
     <div class="hero-banner">
       <img class="hero-image" src="./assets/logocrown.png">
-      <h1><b>Welcome to the most challenging app, ever.</b></h1>
-      <h2>Enchante Your Journey. Break the bad habits.</h2>
+      <h1 class="hero-text">Welcome to the most challenging app, ever.</h1>
+      <h2 class="hero-text">Enchante Your Journey. Break the bad habits.</h2>
     </div>
     <div class="app-description">
-      <h2>Ready for a challenge?</h2>
-      <h4>Sign up, pick the challenge you want to complete, choose ur friend and name the prize!
-      Sign up, pick the challenge you want to complete, choose ur friend and name the prize!Sign up,
-      pick the challenge you want to complete, choose ur friend and name the prize!</h4>
+      <div class="app-banner">
+        <h2 class="app-text">Ready for a challenge?</h2>
+        <h4 class="app-text">Sign up, pick the challenge you want to complete, choose ur friend and name the prize!
+        Sign up, pick the challenge you want to complete, choose ur friend and name the prize!Sign up,
+        pick the challenge you want to complete, choose ur friend and name the prize!</h4>
+      </div>
     </div>
     <div class="app-images">
       <img class="app-image" src="./assets/signup.png">
       <img class="app-image" src="./assets/logged.png">
-      <img class="app-image" src="./assets/request.png">
+      <img class="app-image" src="./assets/requested.png">
+    </div>
+    <div class="hero-banner">
     </div>
   </div>
 </template>
@@ -34,6 +38,11 @@ body{
   margin-top: 60px;
 }
 
+/* you can assign all of them to have same style*/
+/*h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+}*/
+
 .hero-image {
   /*width: 200px;*/
   height: 300px;
@@ -46,9 +55,18 @@ body{
   text-align: center;
 }
 
-.app-description {
+.hero-text {
+  font-weight: normal;
+}
+
+.app-banner {
   width: 700px;
   margin: auto;
+
+}
+
+.app-description {
+  background-color: #EDEDED;
   padding: 30px;
   text-align: center;
   color: #31323A;
@@ -56,13 +74,17 @@ body{
 
 .app-images {
   text-align: center;
-
 }
+
 .app-image {
   display: inline-block;
-  width: 280px;
-  padding: 30px;
+  width: 220px;
+  padding: 60px;
 
+}
+
+.app-text {
+  font-weight: normal;
 }
 
 </style>
