@@ -53,6 +53,7 @@ body{
   padding: 50px;
   color: #EDEDED;
   text-align: center;
+  background-image: linear-gradient(to bottom,#FF5C5C 0,#f98181 100%);
 }
 
 .hero-text {
