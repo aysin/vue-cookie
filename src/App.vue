@@ -1,5 +1,6 @@
 <template>
   <div>
+    <navbar></navbar>
     <div class="hero-banner">
       <img class="hero-image" src="./assets/logocrown.png">
       <h1 class="hero-text">Welcome to the most challenging app, ever.</h1>
@@ -18,14 +19,21 @@
       <img class="app-image" src="./assets/logged.png">
       <img class="app-image" src="./assets/requested.png">
     </div>
-    <div class="hero-banner">
+    <!-- this part is info about the company -->
+    <div class="app-description">
+      <div class="app-banner">
+        <h2 class="app-text"><a name="about">About</a></h2>
+        <p>Frontend is hard!</p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import navbar from 'components/navbar'
 export default {
   name: 'app',
+  components: {navbar: navbar},
 }
 </script>
 
@@ -35,7 +43,7 @@ body{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 /* you can assign all of them to have same style*/
@@ -87,5 +95,6 @@ body{
 .app-text {
   font-weight: normal;
 }
+
 
 </style>
