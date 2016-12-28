@@ -16,7 +16,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 ul {
     list-style-type: none;
     margin: 10;
@@ -35,6 +35,7 @@ a {
   width: 30px;
   height: 30px;
   /*-webkit-transition: all 1.5s ease;*/
+  text-align: center;
 }
 
 a:hover {

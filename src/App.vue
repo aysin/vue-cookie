@@ -15,15 +15,33 @@
       </div>
     </div>
     <div class="app-images">
-      <img class="app-image" src="./assets/signup.png">
-      <img class="app-image" src="./assets/logged.png">
-      <img class="app-image" src="./assets/requested.png">
+
+      <div class="app-image-wrapper">
+        <img class="app-image" src="./assets/signup.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="app-image-wrapper">
+        <img class="app-image" src="./assets/logged.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="app-image-wrapper">
+        <img class="app-image" src="./assets/challengeview.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="app-image-wrapper">
+        <img class="app-image" src="./assets/overview.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
     </div>
     <!-- this part is info about the company -->
     <div class="app-description">
       <div class="app-banner">
         <h2 class="app-text"><a name="about">About</a></h2>
-        <p>Frontend is hard!</p>
+        <about></about>
+
+        <img class="about-image" src="./assets/arthur.png">
+        <img class="about-image" src="./assets/aysin.png">
       </div>
     </div>
   </div>
@@ -31,9 +49,10 @@
 
 <script>
 import navbar from 'components/navbar'
+import about from 'components/about'
 export default {
   name: 'app',
-  components: {navbar: navbar},
+  components: {navbar: navbar, about: about},
 }
 </script>
 
@@ -85,13 +104,21 @@ body{
   text-align: center;
 }
 
-.app-image {
+.app-image-wrapper {
   display: inline-block;
   width: 220px;
   padding: 60px;
-
 }
 
+.app-image {
+  /* Image inherits the parent size which is the app-image-wrapper*/
+  width: 100%;
+}
+
+.about-image {
+  width: 220px;
+  padding: 60px;
+}
 .app-text {
   font-weight: normal;
 }
