@@ -39,20 +39,25 @@
       <div class="app-banner">
         <h2 class="app-text"><a name="about">About</a></h2>
         <about></about>
-
-        <img class="about-image" src="./assets/arthur.png">
         <img class="about-image" src="./assets/aysin.png">
+        <img class="about-image" src="./assets/arthur.png">
       </div>
     </div>
+    <!-- Contact info footer -->
+    <footer class="footer">
+      <h2 class="app-text"><a name="contact">Contact</a></h2>
+      <contact></contact>
+    </footer>
   </div>
 </template>
 
 <script>
 import navbar from 'components/navbar'
 import about from 'components/about'
+import contact from 'components/contact'
 export default {
   name: 'app',
-  components: {navbar: navbar, about: about},
+  components: {navbar: navbar, about: about, contact: contact},
 }
 </script>
 
@@ -123,5 +128,10 @@ body{
   font-weight: normal;
 }
 
+.footer {
+  background: #FF5C5C;
+  color: #EDEDED;
+  padding: 10px 40px 20px;
+}
 
 </style>
