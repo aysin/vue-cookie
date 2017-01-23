@@ -9,28 +9,31 @@
     <div class="app-description">
       <div class="app-banner">
         <h2 class="app-text">Ready for a challenge?</h2>
-        <h4 class="app-text">Sign up, pick the challenge you want to complete, choose ur friend and name the prize!
-        Sign up, pick the challenge you want to complete, choose ur friend and name the prize!Sign up,
-        pick the challenge you want to complete, choose ur friend and name the prize!</h4>
+        <h4 class="app-text">
+          Have you ever started New Years Resolution, or wanted to achieve something in your life but never get to complete?
+          So, here is our simple hypothesis; you haven't had a friend that is challenging you to finish your task!
+          All you needed was motivation and some support along the way! This is your chance, download Optimus to complete
+          all your resolution and <b>break all the bad habits</b> that you have developed over the years!
+          We got your back! </h4>
       </div>
     </div>
     <div class="app-images">
 
       <div class="app-image-wrapper">
         <img class="app-image" src="./assets/signup.png">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Simply login with your Facebook account.</p>
       </div>
       <div class="app-image-wrapper">
         <img class="app-image" src="./assets/logged.png">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Great! Go ahead and create your first challenge!</p>
       </div>
       <div class="app-image-wrapper">
         <img class="app-image" src="./assets/challengeview.png">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Now pick your something you want to achieve!.</p>
       </div>
       <div class="app-image-wrapper">
         <img class="app-image" src="./assets/overview.png">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>You are set! Fire away your request!.</p>
       </div>
 
     </div>
@@ -45,8 +48,9 @@
     </div>
     <!-- Contact info footer -->
     <footer class="footer">
-      <h2 class="app-text"><a name="contact">Contact</a></h2>
-      <contact></contact>
+      <h2 class="app-text"><a name="contact"></a>
+        <contact></contact>
+      </h2>
     </footer>
   </div>
 </template>
