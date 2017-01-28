@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a class="info" href="mailto:optimus@gmail.com"><h3>Contact us: team@optimusapp.com<h3></a>
+    <a class="info" href="mailto:team@optimusapp.com"><h4>Contact us: team@optimusapp.com</h4></a> 
     <!-- Begin MailChimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <div class="subscription-style">

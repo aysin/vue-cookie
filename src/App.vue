@@ -1,20 +1,27 @@
 <template>
   <div>
+    <head>
+      <meta charset="utf-8">
+      <link href="/static/faviconcrown.ico" rel="shortcut icon" type="image/x-icon" />
+      <title>Optimus</title>
+    </head>
     <navbar></navbar>
     <div class="hero-banner">
       <img class="hero-image" src="./assets/logocrown.png">
       <h1 class="hero-text">Welcome to the most challenging app, ever.</h1>
-      <h2 class="hero-text">Enchante Your Journey. Break the bad habits.</h2>
+      <h2 class="hero-text">Enchant your journey. Break the bad habits.</h2>
     </div>
     <div class="app-description">
       <div class="app-banner">
         <h2 class="app-text">Ready for a challenge?</h2>
         <h4 class="app-text">
-          Have you ever started New Years Resolution, or wanted to achieve something in your life but never get to complete?
-          So, here is our simple hypothesis; you haven't had a friend that is challenging you to finish your task!
-          All you needed was motivation and some support along the way! This is your chance, download Optimus to complete
-          all your resolution and <b>break all the bad habits</b> that you have developed over the years!
-          We got your back! </h4>
+          Have you ever started a New Year’s Resolution or wanted to achieve something
+          in your life but failed to complete it? We have a simple yet powerful
+          hypothesis: If you would have had a friend who challenged you to finish your task, you would have made it!</h4>
+        <h4 class="app-text">
+          All you need is motivation and some support along the way!
+          This is your chance: Download the Optimus app for your smartphone to complete all your
+          resolutions and <b>break all the bad habits!</b> We’ve got your back!</h4>
       </div>
     </div>
     <div class="app-images">
@@ -49,11 +56,13 @@
     <!-- Contact info footer -->
     <footer class="footer">
       <h2 class="app-text"><a name="contact"></a>
-        <contact></contact>
+        <contact>
+        </contact>
       </h2>
     </footer>
   </div>
 </template>
+
 
 <script>
 import navbar from 'components/navbar'

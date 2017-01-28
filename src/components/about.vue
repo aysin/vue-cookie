@@ -1,8 +1,9 @@
 <template>
   <div>
-    <p>Optimus is formed by two backend developers who wants to create difference in peoples' life!
-    Arthur and Aysin met in the same company and started to building Optimus together. They started to this journey
-  in 2016 November, in the cafe and now they are here to create a difference in your life! </p>
+    <p>The goal of Optimus is to help you and your friends to motivate each other to
+      break bad habits and to achieve the goals you want to reach. </p>
+    <p>The company was formed by two software engineers, Arthur and Aysin, who want to create a difference in people’s life.
+      The journey of Optimus began in November 2016 when they were brainstorming ideas in a cafe in Stockholm, Sweden.</p>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 export default {
   name: 'about',
 }
+
 </script>
 
 
