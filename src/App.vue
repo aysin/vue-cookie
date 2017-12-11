@@ -1,13 +1,15 @@
 <template>
   <div>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta charset="utf-8">
       <link href="/static/faviconcrown.ico" rel="shortcut icon" type="image/x-icon" />
       <title>Optimus</title>
     </head>
     <navbar></navbar>
     <div class="hero-banner">
-      <img class="hero-image" src="./assets/logocrown.png">
+      <img class="hero-image" src="./assets/optimustxt.png">
+      <img class="hero-image" src="./assets/optimus.png">
       <h1 class="hero-text">Welcome to the most challenging app, ever.</h1>
       <h2 class="hero-text">Enchant your journey. Break the bad habits.</h2>
     </div>
@@ -25,22 +27,21 @@
       </div>
     </div>
     <div class="app-images">
-
       <div class="app-image-wrapper">
-        <img class="app-image" src="./assets/signup.png">
-        <p>Simply login with your Facebook account.</p>
-      </div>
-      <div class="app-image-wrapper">
-        <img class="app-image" src="./assets/logged.png">
+        <img class="app-image" src="./assets/login.png">
         <p>Great! Go ahead and create your first challenge!</p>
       </div>
       <div class="app-image-wrapper">
-        <img class="app-image" src="./assets/challengeview.png">
+        <img class="app-image" src="./assets/challengelist.png">
         <p>Now pick your something you want to achieve!.</p>
       </div>
       <div class="app-image-wrapper">
         <img class="app-image" src="./assets/overview.png">
         <p>You are set! Fire away your request!.</p>
+      </div>
+      <div class="app-image-wrapper">
+        <img class="app-image" src="./assets/famouschallenge.png">
+        <p>or Join to famous influencers' challenges!</p>
       </div>
 
     </div>
@@ -49,17 +50,19 @@
       <div class="app-banner">
         <h2 class="app-text"><a name="about">About</a></h2>
         <about></about>
+        <a class="info" href="mailto:team@optimusapp.com"><p><b>Contact us: team@optimusapp.com</b></p></a>
         <img class="about-image" src="./assets/aysin.png">
         <img class="about-image" src="./assets/arthur.png">
       </div>
+
     </div>
     <!-- Contact info footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <h2 class="app-text"><a name="contact"></a>
         <contact>
         </contact>
       </h2>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
@@ -88,17 +91,32 @@ body{
   font-weight: lighter;
 }*/
 
+.info {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  margin: 0px;
+  text-align: center;
+}
+.subscription-style{
+    /*padding: 10px 30px;*/
+    color: #50E3C2;
+    text-align: center;
+}
+
 .hero-image {
-  /*width: 200px;*/
-  height: 300px;
+  /*width: 500px;*/
+  max-height: 600px;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 
 .hero-banner {
-  background-color: #FF5C5C;
+  background-color: #50E3C2;
   padding: 50px;
-  color: #EDEDED;
   text-align: center;
-  background-image: linear-gradient(to bottom,#FF5C5C 0,#f98181 100%);
+  background-image: linear-gradient(to bottom,#50E3C2 0,#FFFFFF 100%);
 }
 
 .hero-text {
@@ -106,13 +124,13 @@ body{
 }
 
 .app-banner {
-  width: 700px;
+  max-width: 700px;
   margin: auto;
 
 }
 
 .app-description {
-  background-color: #EDEDED;
+  background-color: #FFFFFF;
   padding: 30px;
   text-align: center;
   color: #31323A;
@@ -124,7 +142,7 @@ body{
 
 .app-image-wrapper {
   display: inline-block;
-  width: 220px;
+  max-width: 220px;
   padding: 60px;
 }
 
@@ -134,7 +152,7 @@ body{
 }
 
 .about-image {
-  width: 220px;
+  max-width: 220px;
   padding: 60px;
 }
 .app-text {
@@ -142,7 +160,7 @@ body{
 }
 
 .footer {
-  background: #FF5C5C;
+  background: #50E3C2;
   color: #EDEDED;
   padding: 10px 40px 20px;
 }
