@@ -9,7 +9,6 @@
     <navbar></navbar>
     <div class="hero-banner">
       <img class="hero-image" src="./assets/optimustxt.png">
-      <img class="hero-image" src="./assets/optimus.png">
       <h1 class="hero-text">Welcome to the most challenging app, ever.</h1>
       <h2 class="hero-text">Enchant your journey. Break the bad habits.</h2>
     </div>
@@ -55,15 +54,7 @@
         <img class="about-image" src="./assets/arthur.png">
       </div>
 
-    </div>
-    <!-- Contact info footer -->
-    <!-- <footer class="footer">
-      <h2 class="app-text"><a name="contact"></a>
-        <contact>
-        </contact>
-      </h2>
-    </footer> -->
-  </div>
+
 </template>
 
 
